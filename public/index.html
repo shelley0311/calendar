@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8" />
+  <title>活動行事曆</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/index.global.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>📅 活動行事曆</h1>
+  <div id="calendar"></div>
+
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <h3 id="modal-title"></h3>
+      <input type="text" id="name" placeholder="請輸入名字" />
+      <button onclick="submitRegistration()">報名</button>
+      <button onclick="closeModal()">取消</button>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/index.global.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
